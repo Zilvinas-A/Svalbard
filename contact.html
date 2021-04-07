@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Svalbardas</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/polar-bear-black.png" />
+    <meta name="google-site-verification" content="KXLGAJLFrzoq-ZBkcLSsqTSHGT4a0zsDEUr4ra1ZJcc" />
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <h2 id="svalbard"><a href="index.html">Svalbardas</a></h2>
+        <ul>
+            <li><a href="index.html">Pradžia</a></li>
+            <li><a href="stories.html">Pasakojimai</a></li>
+            <li><a href="gallery.html">Galerija</a></li>
+            <li><a href="tips.html">Patarimai</a></li>
+            <li><a href="about.html">Apie mus</a></li>
+            <li><a href="contact.html">Susisiekti</a></li>
+        </ul>
+    </nav>
+
+    <div class="contact-all">
+        <h2 id="contact-h2">Susisiekti</h2>
+
+        <div class="contact">Jei turite klausimų, pastabų ar pasiūlymų, susisiekite su mumis užpildydami žemiau esančią
+            formą.</div>
+
+        <div class="fcf-body">
+
+            <div id="fcf-form">
+                <!--<h3 class="fcf-h3">Norėdami susisiekti, užpildykite formą</h3>-->
+
+                <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+
+                    <div class="fcf-form-group">
+                        <label for="Name" class="fcf-label">Jūsų vardas</label>
+                        <div class="fcf-input-group">
+                            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <label for="Email" class="fcf-label">Jūsų elektroninio pašto adresas</label>
+                        <div class="fcf-input-group">
+                            <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <label for="Message" class="fcf-label">Jūsų žinutė</label>
+                        <div class="fcf-input-group">
+                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000"
+                                required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <button type="submit" id="fcf-button"
+                            class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Siųsti</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+
+        <p class="copyright">© Žilvinas Adomaitis, 2021</p>
+
+        <div class="footer-nav">
+
+            <ul>
+                <li><a href="index.html">Pradžia</a></li>
+                <li><a href="stories.html">Pasakojimai</a></li>
+                <li><a href="gallery.html">Galerija</a></li>
+                <li><a href="tips.html">Patarimai</a></li>
+                <li><a href="about.html">Apie mus</a></li>
+                <li><a href="contact.html">Susisiekti</a></li>
+            </ul>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
